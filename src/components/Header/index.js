@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <section className='header'>
+    <section>
       <h1>Joseph Kurpierz</h1>
     </section>
   )

@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <section>
-      <p>Proudly created by Joseph Kurpierz</p>
+      <p> &copy; 2022 Joseph Kurpierz</p>
     </section>
   )
 }

@@ -1,8 +1,12 @@
 :root{
   --main-color: blue;
-  --second-color: red;
+  --secondary-color: red;
   --third-color: purple;
   --fourth-color: green;
+}
+
+*{
+  background-color: var(--main-color);
 }
 
 body {
@@ -14,6 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
+
 }
 
 code {
@@ -21,6 +26,13 @@ code {
     monospace;
 }
 
+
+
+header {
+color: white;
+font-size: .5rem;
+text-align: center;
+}
 
 @media screen and (min-width:980px){
  

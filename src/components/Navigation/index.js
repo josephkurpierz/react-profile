@@ -1,25 +1,30 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const {
+    categories =  [],
+    setCurrentCategory,
+    currentCategory,
+  } = props;
+
   return(
-    <section>
-      <div>
-        <ul>
-          <li>
-            <button className="btn">About</button>
-          </li>
-          <li>
-            <button className="btn">Contact</button>
-          </li>
-          <li>
-            <button className="btn">Projects</button>
-          </li>
-          <li>
-            <button className="btn">Resume</button>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <nav id="nav">
+      <ul>
+      {categories.map((category) => (
+        <li>
+        <button 
+          key={category.name}
+          className={`${currentCategory.name  === category.name && 'navActive'}`}
+        >
+          <span onClick={() => setCurrentCategory(category)}>
+            {category.name}
+          </span>
+        </button>
+        </li>
+
+      ))}
+      </ul>
+    </nav>
   )
 }
 
