@@ -5,8 +5,10 @@ import Footer from "./components/Footer";
 import Project from "./components/Project";
 import About from "./components/About";
 import ContactForm from "./components/Contact";
+import Resume from './components/Resume';
 
 function App() {
+
   const [categories] = useState([
     { name: "About" },
     { name: "Contact" },
@@ -26,9 +28,10 @@ function App() {
         ></Header>
       </header>
       <main className="pages">
-        <About></About>
-        <Project></Project>
-        <ContactForm></ContactForm>
+      {currentCategory === categories[0] && <About/>}
+      {currentCategory === categories[1] && <ContactForm/>}
+      {currentCategory === categories[2] && <Project/>}
+      {currentCategory === categories[3] && <Resume/>}
       </main>
 
       <footer id="footer">

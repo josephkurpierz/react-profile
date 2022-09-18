@@ -40,16 +40,16 @@ function Project() {
   ];
   return (
     <section>
-      <h2>My Projects</h2>
-      <div>
+      <h2 className="section-title">My Projects</h2>
+      <div className="project-list">
         {projects.map((project) => (
-          <div key={project.name}>
+          <div className="project-card" key={project.name}>
+              <a className='links' href={project.repo}>{project.name}</a><br/>
+              <a className='links'href={project.deployed}>Live deployment</a>
             <div
-              className="projectCard"
+              className="project-img"
               style={{ backgroundImage: `url(${project.thumbnail})` }}
             >
-              <a href={project.repo}>{project.name}</a><br/>
-              <a href={project.deployed}>Live deployment</a>
             </div>
           </div>
         ))}
