@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h2>
+      My Projects
+    </h2>
+    <div>
+      <div>
+        <div
+          class="projectCard"
+          style="background-image: url(Parkour-landing-page.png);"
+        >
+          <a
+            href="https://github.com/josephkurpierz/parkour"
+          >
+            Parkour
+          </a>
+          <a
+            href="https://parkour-review.herokuapp.com/"
+          >
+            Live deployment
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="projectCard"
+          style="background-image: url(pizza-hunt-landing-page.png);"
+        >
+          <a
+            href="https://github.com/josephkurpierz/pizza-hunt"
+          >
+            Pizza Hunt
+          </a>
+          <a
+            href="https://nameless-shore-70920.herokuapp.com/"
+          >
+            Live deployment
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="projectCard"
+          style="background-image: url(photo-port-landing-page.png);"
+        >
+          <a
+            href="https://github.com/josephkurpierz/photo-port"
+          >
+            Photo Portfolio
+          </a>
+          <a
+            href="https://josephkurpierz.github.io/photo-port/"
+          >
+            Live deployment
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="projectCard"
+          style="background-image: url(zookeepr-landing-page.png);"
+        >
+          <a
+            href="https://github.com/josephkurpierz/zookeepr"
+          >
+            Zoo Keepr
+          </a>
+          <a
+            href="https://fast-sea-99289.herokuapp.com/"
+          >
+            Live deployment
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="projectCard"
+          style="background-image: url(dogs-dogs-dogs-landing-page.png);"
+        >
+          <a
+            href="https://github.com/josephkurpierz/dogs-dogs-dogs"
+          >
+            Dogs-Dogs-Dogs
+          </a>
+          <a
+            href="https://taylorstrubhar.github.io/dogs-dogs-dogs/"
+          >
+            Live deployment
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

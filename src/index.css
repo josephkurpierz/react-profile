@@ -1,8 +1,9 @@
 :root{
-  --main-color: blue;
-  --secondary-color: red;
-  --third-color: purple;
-  --fourth-color: green;
+  --main-color: #023047;
+  --secondary-color: #FFB703;
+  --third-color: #Fb8500;
+  --fourth-color: #8ECAE6;
+  --fifth-color: #219EBC;
 }
 
 *{
@@ -18,7 +19,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
-
+  box-sizing: border-box;
+  color:var(--fifth-color)
 }
 
 code {
@@ -26,12 +28,25 @@ code {
     monospace;
 }
 
-
-
 header {
-color: white;
-font-size: .5rem;
+color: var(--fourth-color);
+font-size: 1rem;
 text-align: center;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  border:0;
+}
+:hover .btn {
+  cursor: pointer;
+}
+:active a {
+  color: (--third-color);
+}
+.navActive { 
+  color: var(--secondary-color);
 }
 
 @media screen and (min-width:980px){

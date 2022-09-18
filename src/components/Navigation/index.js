@@ -6,25 +6,25 @@ function Nav(props) {
     setCurrentCategory,
     currentCategory,
   } = props;
-
+console.log(props);
+console.log('console.log is not working');
   return(
+    
     <nav id="nav">
-      <ul>
       {categories.map((category) => (
-        <li>
+        
         <button 
           key={category.name}
-          className={`${currentCategory.name  === category.name && 'navActive'}`}
+          className={`${currentCategory.name  === category.name && 'navActive'} btn`} 
         >
           <span onClick={() => setCurrentCategory(category)}>
             {category.name}
           </span>
         </button>
-        </li>
 
       ))}
-      </ul>
     </nav>
+    
   )
 }
 
