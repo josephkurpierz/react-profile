@@ -21,6 +21,8 @@
   ## Usage
   [github repository](https://github.com/josephkurpierz/react-profile)
 
+  [vist deployed site](https://josephkurpierz.github.io/react-profile/)
+
   it will hopefully be used to gain interest from employers
 
   ## Contributing
@@ -36,9 +38,6 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-
-  ## Tests
-  none
 
   ## Questions
   Any questions can be directed towards josephkurpierz at [github profile](https://github.com/josephkurpierz/)
