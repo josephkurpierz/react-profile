@@ -4,6 +4,7 @@ import pizza from "../../assets/projects/pizza-hunt-landing-page.png";
 import photoPort from "../../assets/projects/photo-port-landing-page.png";
 import zooKeepr from "../../assets/projects/zookeepr-landing-page.png";
 import dogs from "../../assets/projects/dogs-dogs-dogs-landing-page.png";
+import dtddt from '../../assets/projects/DTDDTLanding-Page.png';
 
 function Project() {
   const projects = [
@@ -26,10 +27,10 @@ function Project() {
       deployed: "https://josephkurpierz.github.io/photo-port/",
     },
     {
-      name: "Zoo Keepr",
-      thumbnail: zooKeepr,
-      repo: "https://github.com/josephkurpierz/zookeepr",
-      deployed: "https://fast-sea-99289.herokuapp.com/",
+      name: "Do the Ding Dang Thing",
+      thumbnail: dtddt,
+      repo: "https://github.com/josephkurpierz/do-the-ding-dang-thing",
+      deployed: "https://guarded-taiga-92417.herokuapp.com/",
     },
     {
       name: "Dogs-Dogs-Dogs",
