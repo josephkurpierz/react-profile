@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.8cdca682.css",
-    "main.js": "/react-profile/static/js/main.b856c01e.js",
+    "main.js": "/react-profile/static/js/main.21dd1619.js",
     "static/js/787.5c467991.chunk.js": "/react-profile/static/js/787.5c467991.chunk.js",
+    "static/media/DTDDTLanding-Page.png": "/react-profile/static/media/DTDDTLanding-Page.9af05e7e83a4c6223c19.png",
     "static/media/photo-port-landing-page.png": "/react-profile/static/media/photo-port-landing-page.6426d49545e8aceb5128.png",
     "static/media/pizza-hunt-landing-page.png": "/react-profile/static/media/pizza-hunt-landing-page.82612a5040d974c717bd.png",
     "static/media/zookeepr-landing-page.png": "/react-profile/static/media/zookeepr-landing-page.64c0b6f091ef578f8e2a.png",
@@ -11,11 +12,11 @@
     "static/media/dogs-dogs-dogs-landing-page.png": "/react-profile/static/media/dogs-dogs-dogs-landing-page.a593ee9216f6e190c11c.png",
     "index.html": "/react-profile/index.html",
     "main.8cdca682.css.map": "/react-profile/static/css/main.8cdca682.css.map",
-    "main.b856c01e.js.map": "/react-profile/static/js/main.b856c01e.js.map",
+    "main.21dd1619.js.map": "/react-profile/static/js/main.21dd1619.js.map",
     "787.5c467991.chunk.js.map": "/react-profile/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cdca682.css",
-    "static/js/main.b856c01e.js"
+    "static/js/main.21dd1619.js"
   ]
 }
